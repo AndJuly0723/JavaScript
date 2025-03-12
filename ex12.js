@@ -51,6 +51,7 @@ for(let i=2; i<10; i++){
 // for in 반복문
 console.log('\nFor in loop examples:')
 // for in 문은 배열보다는 객체를 순회하는데 더 적합함
+// 객체 또는 배열의 키(인덱스 또는 속성이름) 를 순회하는 반복문
 let A = ['You', 'need', 'Money']
 for(const i in A){
   console.log(A[i])
@@ -63,6 +64,8 @@ for(let key in person){
 
 // for of 반복문
 console.log('\nFor of loop examples:')
+// 배열, 문자열 등 이터러블 객체를 직접 순회하는 반복문
+// for in이 키(인덱스)를 반환하는 반면, for of는 값을 반환
 
 A = ['I', 'Like', 'Money']
 for(const a of A){
